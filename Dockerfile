@@ -15,3 +15,4 @@ ENTRYPOINT ["/run.sh"]
 ADD nginx.conf /etc/nginx/nginx.conf
 ADD app.rb .
 ADD run.sh .
+ADD puma_max_backlog.rb .
