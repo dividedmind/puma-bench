@@ -12,5 +12,6 @@ RUN \
   cd / && rm -rf wrk-4.0.2
 
 ENTRYPOINT ["/run.sh"]
-ADD run.sh .
+ADD nginx.conf /etc/nginx/nginx.conf
 ADD app.rb .
+ADD run.sh .

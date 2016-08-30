@@ -38,6 +38,7 @@ Memory usage:
 
 - *THROTTLE* -- number of seconds to sleep in every request (can be float)
 - *THREADS_{MIN,MAX}* -- min and max number of puma threads
+- *MAX_BACKLOG* -- maximum puma backlog (return 503 if greater than that; checked every second)
 
 ## Command line options
 
